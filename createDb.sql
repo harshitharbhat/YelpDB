@@ -122,7 +122,24 @@ INTO Reviews (Review_ID, Rating, Author,Publish_date,Friend_cool,Rec,Business_ID
     ('R4',2,'Y4',TO_DATE('2018-01-12','yyyy-mm-dd'),'Y7','R','B4',1,0,0)
 INTO Reviews (Review_ID, Rating, Author,Publish_date,Friend_cool,Rec,Business_ID,Votes_funny,Votes_cool,Votes_useful ) VALUES 
 ('R22',5,'Y13',TO_DATE('2018-01-12','yyyy-mm-dd'),'Y8','R','B12',0,1,0)
+INTO Reviews (Review_ID, Rating, Author,Publish_date,Friend_cool,Rec,Business_ID,Votes_funny,Votes_cool,Votes_useful ) VALUES 
+    ('R2',3,'Y2',TO_DATE('2018-01-12','yyyy-mm-dd'),'Y1','R','B2',0,1,0)
+INTO Reviews (Review_ID, Rating, Author,Publish_date,Friend_cool,Rec,Business_ID,Votes_funny,Votes_cool,Votes_useful ) VALUES 
+    ('R2',3,'Y2',TO_DATE('2018-01-12','yyyy-mm-dd'),'Y1','R','B2',0,1,0)
+INTO Reviews (Review_ID, Rating, Author,Publish_date,Friend_cool,Rec,Business_ID,Votes_funny,Votes_cool,Votes_useful ) VALUES 
+    ('R6',4,'Y6',TO_DATE('2020-12-12','yyyy-mm-dd'),'Y2','R','B6',0,0,1)
+INTO Reviews (Review_ID, Rating, Author,Publish_date,Friend_cool,Rec,Business_ID,Votes_funny,Votes_cool,Votes_useful ) VALUES 
+    ('R7',3,'Y7',TO_DATE('2013-05-12','yyyy-mm-dd'),'Y1','R','B7',1,0,0)
+INTO Reviews (Review_ID, Rating, Author,Publish_date,Friend_cool,Rec,Business_ID,Votes_funny,Votes_cool,Votes_useful ) VALUES 
+    ('R8',2,'Y8',TO_DATE('2009-03-01','yyyy-mm-dd'),'Y10','R','B8',0,1,0)
+INTO Reviews (Review_ID, Rating, Author,Publish_date,Friend_cool,Rec,Business_ID,Votes_funny,Votes_cool,Votes_useful ) VALUES 
+ ('R12',2,'Y2',TO_DATE('2009-03-01','yyyy-mm-dd'),'Y1','R','B1',1,0,0)
+INTO Reviews (Review_ID, Rating, Author,Publish_date,Friend_cool,Rec,Business_ID,Votes_funny,Votes_cool,Votes_useful ) VALUES 
+    ('R13',2,'Y3',TO_DATE('2009-03-01','yyyy-mm-dd'),'Y6','R','B2',0,1,0)
+INTO Reviews (Review_ID, Rating, Author,Publish_date,Friend_cool,Rec,Business_ID,Votes_funny,Votes_cool,Votes_useful ) VALUES 
+    ('R14',3,'Y4',TO_DATE('2009-03-01','yyyy-mm-dd'),'Y7','R','B3',0,0,1)
 SELECT 1 FROM dual;
+
 INSERT ALL
 INTO Category (Category_ID, Category_name) VALUES
     ('BCT1','Amusement Parks')

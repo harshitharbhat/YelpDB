@@ -49,7 +49,6 @@ INTO YELP_USER(YELP_ID ,Email, First_Name, Last_Name, DOB, BirthPlace, Gender)
    VALUES('Y3','Jane@gmail.com','Jane','Chapel',TO_DATE('1992-6-1','yyyy-mm-dd'),'VERNON HILLS,IL 60061','F')
 INTO YELP_USER(YELP_ID ,Email, First_Name, Last_Name, DOB, BirthPlace, Gender)
 VALUES('Y4','adi@yahoo.com','Aditya','Awasthi',TO_DATE('1964-4-12','yyyy-mm-dd'),'SAN FRANCISCO, CA 94102','M')
-SELECT 1 FROM dual;
 INTO YELP_USER(YELP_ID ,Email, First_Name, Last_Name, DOB, BirthPlace, Gender)
 VALUES('Y8','wei@gmail.com','Wei','Zhangi',TO_DATE('2004-4-12','yyyy-mm-dd'),'LAS VEGAS,NV 89030
 ','F')
@@ -81,7 +80,7 @@ INTO Business (Business_ID,B_name,City,State,Phone_No,Category,Open)VALUES
 INTO Business (Business_ID,B_name,City,State,Phone_No,Category,Open)VALUES
     ('B11','In-N-Out Burger','San Jose','CA','(408)-804-8782','BCT11','F')
 INTO Business (Business_ID,B_name,City,State,Phone_No,Category,Open)VALUES
-    ('B12','Coffee Bar & Bistro','Santa Clara','CA','(408)-465-8208','BCT10','T')
+    ('B12','Coffee Bar Bistro','Santa Clara','CA','(408)-465-8208','BCT10','T')
 INTO Business (Business_ID,B_name,City,State,Phone_No,Category,Open)VALUES
     ('B13','Renegades',' Santa Clara','CA','(408)-465-8108','BCT10','T')
 INTO Business (Business_ID,B_name,City,State,Phone_No,Category,Open)VALUES

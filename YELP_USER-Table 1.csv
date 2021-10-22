@@ -1,0 +1,14 @@
+YELP ID,Email ,First Name,Last Name,DOB,BIrthPlace,Gender,Friendlist,Complimented_Friendlist
+Y1,john@yahoo.com,John ,Smith     ,12/12/92,"LAKE CITY,FL 32056 ",M,Y2,Y2
+Y2,juan@gmail.com,Juan ,Carlos      ,2/7/88,"Adak,AK 99546",M,Y1,Y1
+Y3,Jane@gmail.com,Jane ,Chapel      ,6/1/80,"VERNON HILLS,IL 60061",F,Y6,
+Y4,adi@yahoo.com,Aditya,Awasthi,4/12/64,"SAN FRANCISCO, CA 94102 ",M,Y7,Y7
+Y5,james@hotmail.com,James ,Williams     ,5/5/91,"NEW YORK ,NY 10010",M,"Y9, Y10",
+Y6,mike@yahoo.com,Mike ,Brown      ,3/1/88,"CEDAR FALLS, NC 27230",M,"Y2, Y1",Y2
+Y7,bob@yahoo.com,Bob ,Jones     ,2/19/70,"FISHERS ISLAND,NY 06390 ",M,Y1,Y1
+Y8,wei@gmail.com, Wei ,Zhang ,3/18/75,"LAS VEGAS,NV 89030",F,Y10,Y5
+Y9,mark@gmail.com,Mark ,Davis   ,11/2/45,"LOS ANGELES,CA 90007",M,Y1,Y1
+Y10,daniel@yahoo.com,Daniel  ,Garcia      ,5/10/84,"CALDWELL,NJ 07004",M,Y6,
+Y11,maria@hotmail.com,Maria,Rodriguez        ,8/12/85,"LOS ANGELES,CA 90007",F,Y12,Y12
+Y12,freya@yahoo.com,Freya,Wilson     ,10/5/90,"CLIFFSIDE PARK ,NJ 07010",F,Y11,Y11
+Y13,kell@gmail.com,Kelley,Abraham        ,11/27/95,"REDONDO BEACH,CA 90278",F,Y8,Y8

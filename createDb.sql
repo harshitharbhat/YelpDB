@@ -115,15 +115,14 @@ INTO Business (Business_ID,B_name,City,State,Phone_No,Category,Open)VALUES
     ('B28','Holder''s Country Inn','San Jose','CA','(408)-465-8508','BCT5','F')
 SELECT 1 FROM dual;
 INSERT  ALL
-INTO Reviews (Review_ID, Rating, Author,Publish_date,Friend_cool,Rec,Business_ID,Votes_funny,Votes_cool,Votes_useful ) VALUES   ('R1',2,'Y1',TO_DATE('1992-12-12','yyyy-mm-dd'),'Y2','R','B1',1,0,0)
+INTO Reviews (Review_ID, Rating, Author,Publish_date,Friend_cool,Rec,Business_ID,Votes_funny,Votes_cool,Votes_useful ) VALUES   
+   ('R1',2,'Y1',TO_DATE('1992-12-12','yyyy-mm-dd'),'Y2','R','B1',1,0,0)
 INTO Reviews (Review_ID, Rating, Author,Publish_date,Friend_cool,Rec,Business_ID,Votes_funny,Votes_cool,Votes_useful ) VALUES 
     ('R3',2,'Y3',TO_DATE('2016-12-12','yyyy-mm-dd'),'Y6','R','B3',0,0,1)
 INTO Reviews (Review_ID, Rating, Author,Publish_date,Friend_cool,Rec,Business_ID,Votes_funny,Votes_cool,Votes_useful ) VALUES 
     ('R4',2,'Y4',TO_DATE('2018-01-12','yyyy-mm-dd'),'Y7','R','B4',1,0,0)
 INTO Reviews (Review_ID, Rating, Author,Publish_date,Friend_cool,Rec,Business_ID,Votes_funny,Votes_cool,Votes_useful ) VALUES 
 ('R22',5,'Y13',TO_DATE('2018-01-12','yyyy-mm-dd'),'Y8','R','B12',0,1,0)
-INTO Reviews (Review_ID, Rating, Author,Publish_date,Friend_cool,Rec,Business_ID,Votes_funny,Votes_cool,Votes_useful ) VALUES 
-    ('R2',3,'Y2',TO_DATE('2018-01-12','yyyy-mm-dd'),'Y1','R','B2',0,1,0)
 INTO Reviews (Review_ID, Rating, Author,Publish_date,Friend_cool,Rec,Business_ID,Votes_funny,Votes_cool,Votes_useful ) VALUES 
     ('R2',3,'Y2',TO_DATE('2018-01-12','yyyy-mm-dd'),'Y1','R','B2',0,1,0)
 INTO Reviews (Review_ID, Rating, Author,Publish_date,Friend_cool,Rec,Business_ID,Votes_funny,Votes_cool,Votes_useful ) VALUES 

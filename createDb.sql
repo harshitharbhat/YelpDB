@@ -133,7 +133,7 @@ INTO Category (Category_ID ,Category_name) VALUES
 INTO Category (Category_ID, Category_name) VALUES
     ('BCT4','Windshield ')
 INTO Category (Category_ID, Category_name) VALUES
-    ('BCT5','Breakfast & Brunch')
+    ('BCT5','Breakfast Brunch')
 INTO Category (Category_ID ,Category_name) VALUES
     ('BCT6','Career Counseling')
 INTO Category (Category_ID ,Category_name) VALUES
